@@ -5,7 +5,7 @@
 
 h1 {
     text-align: center;
-    margin: 10px;
+    padding: 10px;
 }
 
 nav ul li {
@@ -13,6 +13,8 @@ nav ul li {
     padding: 10px;
     display: inline-block;
     list-style-type: none;
+    border-radius: 10px;
+    margin: 5px;
 }
 
 footer {
@@ -25,4 +27,45 @@ footer {
 main {
     height: 400px; /* Remove this when content added */
     margin: 15px;
+}
+
+#CarouselAI {
+    background-image: url("images/AISoftware.jpg");
+}
+
+#CarouselIDE {
+    background-image: url("images/IDEs.png");
+}
+
+#CarouselBusiness {
+    background-image: url("images/SoftwareInBusiness.jpg");
+}
+
+.CarouselClick {
+    height: 200px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.CarouselClick a {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 7px;
+    color: black;
+    text-decoration: None;
+}
+
+.CarouselClick a:hover {
+    background-color: lightblue;
+    text-decoration: underline;
+}
+
+.nav-item:hover {
+    background-color: lightgray !important;
+}
+
+.carousel-item {
+    border-radius: 15px;
 }
