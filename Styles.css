@@ -30,21 +30,27 @@ main {
 
 #CarouselAI {
     background-image: url("images/AISoftware.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 #CarouselIDE {
     background-image: url("images/IDEs.png");
+    background-size: cover;
+    background-position: center;
 }
 
 #CarouselBusiness {
     background-image: url("images/SoftwareInBusiness.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .CarouselClick {
-    height: 200px;
+    height: 400px;
     font-weight: bold;
     text-align: center;
-    padding-top: 90px;
+    padding-top: 180px;
 }
 
 .CarouselClick a {
@@ -67,4 +73,8 @@ main {
 
 .carousel-item {
     border-radius: 15px;
+}
+
+#demo {
+    height: 400px;
 }

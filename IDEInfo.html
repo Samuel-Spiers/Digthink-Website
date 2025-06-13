@@ -10,35 +10,157 @@
 
         <link rel="stylesheet" href="Styles.css">
     </head>
-    <body>
-        <header> <!-- Banner of Website, WiP -->
+    <body class="bg-secondary text-white">
+        <header class="bg-dark"> <!-- Banner of Website, WiP -->
             <h1>What IDE's make development more efficient?</h1>
-        </header>
+        
 
-        <nav class="navbar navbar-expand-sm">   <!-- Link to each webpage for specific research question -->
-            <div class="container-fluid justify-content-center">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="Project1Website.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="IDEInfo.html" class="nav-link">IDE's Info</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="AIHelp.html" class="nav-link">AI Help</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="BusinessBenefits.html" class="nav-link">Business Benefits</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+            <nav class="navbar navbar-expand-sm">   <!-- Link to each webpage for specific research question -->
+                <div class="container-fluid justify-content-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item bg-white">
+                            <a href="Project1Website.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item bg-white">
+                            <a href="IDEInfo.html" class="nav-link">IDE's Info</a>
+                        </li>
+                        <li class="nav-item bg-white">
+                            <a href="AIHelp.html" class="nav-link">AI Help</a>
+                        </li>
+                        <li class="nav-item bg-white">
+                            <a href="BusinessBenefits.html" class="nav-link">Business Benefits</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
         <main>
 
             <!-- Short introduction to what our project is -->
-            <h3>Welcome to Smart Colleagues</h3>
-            
+            <div>
+            <table class="table table-striped table-bordered table-dark">
+                <tr>
+                    <th class="text-center" colspan="4">Comparison of Most Popular IDEs</th>
+                </tr>
+                <tr>
+                    <th>Feature</th>
+                    <th>Visual Studio Code</th>
+                    <th>Intellij IDEA</th>
+                    <th>PyCharm</th>
+                </tr>
+                <tr>
+                    <th>AI Code Assistance</th>
+                    <td>GitHub Copilot</td>
+                    <td>CodeANT</td>
+                    <td>CodeANT</td>
+                </tr>
+                <tr>
+                    <th>Live Collaboration</th>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <th>Debugging Tools</th>
+                    <td>Advanced</td>
+                    <td>Advanced</td>
+                    <td>Advanced</td>
+                </tr>
+                <tr>
+                    <th>Git Integration</th>
+                    <td>Seamless</td>
+                    <td>Seamless</td>
+                    <td>Seamless</td>
+                </tr>
+                <tr>
+                    <th>Cloud Environments</th>
+                    <td>GitHub Codespaces</td>
+                    <td>No</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <th>Smart Refactoring</th>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <th>Extensions</th>
+                    <td>Huge Library</td>
+                    <td>Huge Library</td>
+                    <td>Huge Library</td>
+                </tr>
+                <tr>
+                    <th>Terminal Integration</th>
+                    <td>Built-in</td>
+                    <td>Built-in</td>
+                    <td>Built-in</td>
+                </tr>
+                <tr>
+                    <th>Linting</th>
+                    <td>Real-time</td>
+                    <td>Real-time</td>
+                    <td>Real-time</td>
+                </tr>
+                <tr>
+                    <th>Project Management Plugins</th>
+                    <td>Jira, Trello, Asana</td>
+                    <td>Jira, Trello, Asana</td>
+                    <td>Jira, Trello, Asana</td>
+                </tr>
+            </table>
+            <h2 class="mt-4">Details</h2>
+            <p>
+                Choosing an Integrated Development Environment or IDE for software development can be overwhelming due to how manyn options are out there. 
+                However, there are three that stand out: Visual Studio Code, Intellij IDEA, and PyCharm. Each of these IDEs has its 
+                own strengths and weaknesses, making them suitable for different types of projects.<br><br>
+
+                <strong>Visual Studio Code</strong> is a lightweight version of Microsoft Visual Studio. It's an open-source IDE that has gained immense popularity due to its flexibility and extensive
+                library of extensions. It supports a wide range of programming languages and frameworks, making it a versatile choice for developers.
+                Its features include AI code assistance through GitHub Copilot, live collaboration, advanced debugging tools, seamless Git integration,
+                and cloud environments like GitHub Codespaces.<br><br>
+
+                <strong>Intellij IDEA</strong>, developed by JetBrains, is a powerful IDE primarily used for Java development but it also supports many other programming languages.
+                It is known for its powerful automatic code completion, advanced refactoring abilities, and robust debugging tools. Intellij IDEA also offers
+                AI code assistance through CodeANT, live collaboration features, and seamless Git integration. It is particularly favored by enterprise level developers
+                for its project management capabilities and extensive plugin ecosystem.<br><br>
+
+                <strong>PyCharm</strong>, another IDE from the company JetBrains, is specifically designed for Python development. It offers a rich set of features tailored for Python developers,
+                including intelligent code completion, advanced debugging tools, and seamless Git integration. PyCharm also supports AI code assistance through CodeANT,
+                but it unfortunately lacks live collaboration features. It is especially popular among data scientists and machine learning engineers due to its support for Jupyter notebooks
+                and scientific libraries.<br><br>
+            </p>
+            <h3>References</h3>
+            <ol>
+                <li>
+                    <p>27 best developer Productivity Tools in 2025 (code, DevOps & More)</p>
+                    <ul>
+                        <li class="list-unstyled">
+                            <a href="https://www.codeant.ai/blogs/best-developer-productivity-tools-2025">https://www.codeant.ai/blogs/best-developer-productivity-tools-2025</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <p>25 Must-Have Coding Tools for Developers in 2025. (2024)</p>
+                    <ul>
+                        <li class="list-unstyled">
+                            <a href="https://www.index.dev/blog/25-must-have-developer-tools">https://www.index.dev/blog/25-must-have-developer-tools</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <p>Top 10 IDES for developers in 2025. Tech Interview Preparation - System Design, Coding & Behavioral Courses | Design Gurus. (2025, April 25).</p>
+                    <ul>
+                        <li class="list-unstyled">
+                            <a href="https://www.designgurus.io/blog/top-10-ides-for-developers-in-2025">https://www.designgurus.io/blog/top-10-ides-for-developers-in-2025</a>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
     
 
         </main>
