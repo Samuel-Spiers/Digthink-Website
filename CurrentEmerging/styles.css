@@ -1,0 +1,20 @@
+body {
+    background-color: #EED9C4;
+}
+
+#navcol {
+    height: 1000px;
+    width: 200px;
+    padding-top: 75px;
+}
+
+li {
+    font-size: 1.5em;
+    border-bottom: 2px solid #EED9C4;
+}
+
+h1 {
+    letter-spacing: 5px;
+    font-size: 3em;
+    padding-bottom: 15px;
+}
